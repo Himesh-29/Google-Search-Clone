@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Search DIY Think India</title>
+    <link rel="stylesheet" href="Styles/style_homepage.css" />
+  </head>
+  <body>
+    <div
+      class="navigation"
+      style="background-image: url('Images/Background.jpg')"
+    >
+      <span class="nav_text">
+        <button>
+          <a href="google_img_search.html">Google Image Search</a>
+        </button>
+        <button>
+          <a href="google_adv_search.html">Google Advanced Search</a>
+        </button>
+        &nbsp;&nbsp;:Navigate from here
+      </span>
+    </div>
+    <form action="https://www.google.com/search" method="GET">
+      <div class="Google_search">
+        <img src="Images/google_search_image.png" />
+      </div>
+      <br />
+      <input
+        type="text"
+        name="q"
+        placeholder=""
+        autocorrect="off"
+        class="google_search_bar"
+      /><br /><br />
+      <span class="Submit_results">
+        <input
+          type="submit"
+          value="Google Search"
+          class="google_submit_button"
+        />
+
+        <input
+          type="submit"
+          value="I'm Feeling Lucky"
+          name="btnI"
+          class="google_feeling_lucky"
+        />
+      </span>
+    </form>
+  </body>
+</html>

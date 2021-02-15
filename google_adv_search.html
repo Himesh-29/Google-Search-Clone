@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search for Think India</title>
+    <link rel="stylesheet" href="Styles/style_adv_search.css" />
+  </head>
+  <body>
+    <div
+      class="navigation"
+      style="background-image: url('Images/Background.jpg')"
+    >
+      <span class="nav_text">
+        Back to
+        <a href="index.html"> Google Search</a>
+      </span>
+    </div>
+    <div class="adv_search">
+      <h3 class="adv_search_header">Advanced Search</h3>
+    </div>
+    <hr width="100%" color="lightgrey" />
+    <br /><br />
+    <div class="adv_search">
+      Find pages with...
+      <form action="https://www.google.com/search" method="GET" name="f">
+        <div class="queries_table">
+          <br /><br />
+          <table>
+            <tr>
+              <td>all these words:</td>
+              <td>
+                <input
+                  value
+                  autofocus="autofocus"
+                  name="as_q"
+                  type="text"
+                  width="100%"
+                  text-align="left"
+                  class="inputs"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>this exact word or phrase:</td>
+              <td>
+                <input
+                  value
+                  autofocus="autofocus"
+                  name="as_epq"
+                  type="text"
+                  width="100%"
+                  text-align="left"
+                  class="inputs"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>any of these words:</td>
+              <td>
+                <input
+                  value
+                  autofocus="autofocus"
+                  name="as_oq"
+                  type="text"
+                  width="100%"
+                  text-align="left"
+                  class="inputs"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>none of these words:</td>
+              <td>
+                <input
+                  value
+                  autofocus="autofocus"
+                  name="as_eq"
+                  type="text"
+                  width="120%"
+                  text-align="left"
+                  class="inputs"
+                />
+              </td>
+            </tr>
+          </table>
+        </div>
+        <br /><br />
+        <span class="Submit_results">
+          <input
+            type="submit"
+            value="Advanced Search"
+            class="google_submit_button"
+          />
+        </span>
+      </form>
+    </div>
+  </body>
+</html>

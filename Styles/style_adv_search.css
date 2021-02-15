@@ -1,0 +1,58 @@
+.google_search_bar {
+  display: flex;
+  flex: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+  padding-right: 1%;
+  padding-left: 1%;
+  margin-left: 28%;
+  margin-top: 3%;
+  border-color: rgb(190, 189, 189);
+  border-radius: 30px;
+  font-size: 100%;
+  width: 42%;
+  height: 45px;
+  font-size: 140%;
+}
+.google_submit_button {
+  padding: 1%;
+  font-size: 80%;
+  background-color: #4d90fe;
+  color: white;
+  border: 1px solid #3079ed;
+}
+.adv_search {
+  padding-left: 4%;
+}
+.Submit_results {
+  display: flex;
+  flex-direction: row;
+}
+.navigation {
+  padding: 1%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  direction: rtl;
+}
+.nav_text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 1000;
+  color: brown;
+}
+.adv_search_header {
+  color: rgb(193, 13, 13);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inputs {
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  font-size: 100%;
+  height: 5%;
+  padding: 1% 1%;
+  width: 100%;
+}
+.queries_table {
+  font-size: 100%;
+}

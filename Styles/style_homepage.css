@@ -1,0 +1,60 @@
+.google_search_bar {
+  display: flex;
+  flex: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+  padding-right: 1%;
+  padding-left: 1%;
+  margin-left: 28%;
+  margin-top: 3%;
+  border-color: rgb(190, 189, 189);
+  border-radius: 30px;
+  font-size: 100%;
+  width: 42%;
+  height: 45px;
+  font-size: 140%;
+}
+
+.google_submit_button {
+  padding: 1%;
+  font-size: 120%;
+  background-color: rgb(245, 240, 240);
+}
+.google_feeling_lucky {
+  padding: 1%;
+  font-size: 120%;
+  margin-left: 3%;
+  background-color: rgb(245, 240, 240);
+}
+.Google_search {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Submit_results {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navigation {
+  background-image: url("Images/Background.jpg");
+  padding: 1%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  direction: rtl;
+}
+.nav_text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 1000;
+  color: brown;
+}
+a:link {
+  color: rgb(6, 6, 110);
+}
+a:visited {
+  color: rgb(6, 6, 110);
+}
